@@ -1,0 +1,3 @@
+<linker>
+  <assembly fullname="BitMiracle.LibTiff.NET" preserve="all" />
+</linker>

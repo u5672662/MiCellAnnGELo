@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3764776509566710345
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3999651733472280290}
+  - component: {fileID: 3707526906343588622}
+  - component: {fileID: 5519876153372797314}
+  - component: {fileID: 67870090972804127}
+  m_Layer: 0
+  m_Name: FileHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3999651733472280290
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3764776509566710345}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.49245, y: 0.66879004, z: -2.30103}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3707526906343588622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3764776509566710345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 1026671677
+  InScenePlacedSourceGlobalObjectIdHash: 0
+  DeferredDespawnTick: 0
+  Ownership: 1
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 0
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
+  SyncOwnerTransformWhenParented: 1
+  AllowOwnerToParent: 0
+--- !u!114 &5519876153372797314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3764776509566710345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5733d21dc573e32439f2c9b41abe93c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowTopMostFoldoutHeaderGroup: 1
+  verboseLogging: 0
+  meshController: {fileID: 0}
+  meshLoader: {fileID: 0}
+  tiffLoader: {fileID: 0}
+  loadTimeseriesButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  loadAnnotationsButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  saveAnnotationsButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  updateColoursButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  toggleUIButtons: []
+  colorMapper: {fileID: 0}
+  progressBar: {fileID: 0}
+  progressText: {fileID: 0}
+  currentFrameText: {fileID: 0}
+  supabaseInteractor: {fileID: 67870090972804127}
+  annotationManager: {fileID: 0}
+--- !u!114 &67870090972804127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3764776509566710345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e934cdcbb9a76b439b64e33893d02ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serviceKey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inhnd3Bxa3pxaHhjd2Vqb3B2bGJ1Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1MzAyOTIzMiwiZXhwIjoyMDY4NjA1MjMyfQ.qcb53j12HrkInJc7yT19q1Nu66GGSn3crfGRw2_leTM
+  projectUrl: https://supabase.com/dashboard/project/xgwpqkzqhxcwejopvlbu
+  bucketName: uploads
+  verboseLogging: 0
+  progressBar: {fileID: 0}
