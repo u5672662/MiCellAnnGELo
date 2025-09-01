@@ -4,6 +4,8 @@
 A research focused Unity project for interactive visualisation and collaborative annotation of cellular data. It supports time series meshes and volumetric datasets such as multi frame TIFF with single and dual channel rendering. The scene is XR ready and includes multiplayer, basic voice, and utilities for saving and loading annotations.
 
 
+https://github.com/user-attachments/assets/2e3a2fd2-28f9-4546-aabe-266e011c6f00
+
 
 ### Requirements
 
@@ -13,9 +15,13 @@ A research focused Unity project for interactive visualisation and collaborative
     2.1. To enable developer mode, you have to be a registered "developer" on the Meta website, it's free. Open developer.oculus.com/sign-up/ and create an 'organisation'. You'll need to accept the developer agreement and to verify your account using either a credit card or a phone number. Most accounts will already be verified. Next you'll need to create an organisation like below.
 
 
+    https://github.com/user-attachments/assets/211858d2-890a-4e72-b4fc-451df128adb7
+
 
     2.2. Open the Oculus app on your smartphone or tablet. In the Settings tab, tap on the headset and tap 'More settings'. In the list, you should now see Developer Mode. Once you have enabled developer mode it is a good idea to reboot the headset to be able to see it on the device.
 
+
+    https://github.com/user-attachments/assets/a7a3893b-abd1-4079-bdb3-640963481f2e
 
 
     2.3. Now its time to connect the USB cable. Once you are connected you will have to allow USB debugging access on your headset. You should also select 'Always allow from this computer' to prevent this message from coming up every time you connect.
@@ -42,11 +48,11 @@ Packages are declared in `Packages/manifest.json` including Universal Render Pip
 4. Open the scene at `Assets/Scenes/MainScene.unity`
 5. In the top menu select File then Build Settings, select the platform you want to build for (Android/ Windows), then ensure the scene is added to the build list
 
-
+<img width="798" height="656" alt="1" src="https://github.com/user-attachments/assets/9d41b4a8-d0ca-404b-84fe-08bf1148c848" />
 
 7. If you plan to use XR then open `Project Settings` then `XR Plug in Management` then enable OpenXR for your target platform and keep the default interaction profiles
 
-
+<img width="656" height="682" alt="2" src="https://github.com/user-attachments/assets/aab13b1d-7e7a-48c5-a18a-6abc9dcf519a" />
 
 8. Ensure the Input System is active (Unity will prompt to restart the editor if switching from the legacy input)
 
@@ -100,7 +106,7 @@ The project includes Netcode for GameObjects and a manager `Network Manager VR M
 2. In Project Settings enable OpenXR for the platform and keep default interaction profiles
 3. MAKE SURE `XR Device Simulator` IS DISABLED BEFORE BUILDING
 
-
+<img width="536" height="574" alt="3" src="https://github.com/user-attachments/assets/88c993ce-5d09-4f1b-afa2-ffc46cd33396" />
 
 5. Build and run to your selected device
 
